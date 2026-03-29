@@ -5,13 +5,13 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "Isabella";
+const char* password = "warandpeace1867";
 
 // ===========================
 // Enter your Relay Server URL
 // ===========================
-const char* serverUrl = "http://YOUR_RELAY_URL/upload";
+const char* serverUrl = "https://live-stream-production-db92.up.railway.app/upload";
 
 // AI-Thinker ESP32-CAM pin configuration
 #define PWDN_GPIO_NUM     32
