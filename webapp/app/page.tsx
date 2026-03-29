@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-// Use environment variable or default to local relay server
-const RELAY_URL = process.env.NEXT_PUBLIC_RELAY_URL || "http://localhost:8000";
+// Use environment variable or default to the live Railway server
+const RELAY_URL = process.env.NEXT_PUBLIC_RELAY_URL || "https://live-stream-production-db92.up.railway.app";
 
 export default function Home() {
   const [isOnline, setIsOnline] = useState(false);
