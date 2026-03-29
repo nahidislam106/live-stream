@@ -1,0 +1,22 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+.env*.local
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
